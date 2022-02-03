@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include=".template.config\template.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\GenTemplate.Application\GenTemplate.Application.csproj" />
+		<ProjectReference Include="..\GenTemplate.Infrastuscture\GenTemplate.Infrastuscture.csproj" />
+	</ItemGroup>
+
+
+</Project>
